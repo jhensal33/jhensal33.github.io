@@ -6,7 +6,7 @@
 */
 /*--------------------------------------------------------------
 # General
---------------------------------------------------------------*/
+-----------------`--------------------------------------------*/
 body {
   background: #fff;
   color: #666666;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px 0;
   line-height: 1;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/fuji.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -175,10 +175,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 30px 0 10px 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 56px;
   text-transform: uppercase;
-  color: #fff;
+  color: #A7E8EF;
 }
 
 @media (max-width: 768px) {
@@ -483,7 +483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 5px;
 }
 
@@ -502,7 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../img/DAB.png) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -512,7 +512,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .title {
   color: #333;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 32px;
 }
 
@@ -547,11 +547,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid #000000;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: #A7E8EF;
   font-size: 24px;
 }
 
@@ -581,9 +581,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #facts .counters span {
-  font-size: 48px;
+  font-size: 24px;
   display: block;
-  color: #2dc997;
+  color: #43AEBA;
 }
 
 #facts .counters p {
@@ -601,59 +601,45 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 60px 0;
 }
 
-#services .box {
+#services .box1 {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
   height: 200px;
   position: relative;
-  background: #fafafa;
+  background: url(../img/toronto.jpg) top center;
+  background-size: cover;
 }
 
-#services .icon {
-  position: absolute;
-  top: -36px;
-  left: calc(50% - 36px);
-  transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#services .box2 {
+  padding: 50px 20px;
+  margin-bottom: 50px;
   text-align: center;
-  width: 72px;
-  height: 72px;
-  background: #2dc997;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: url(../img/dr.jpg) top center;
+  background-size: cover;
 }
 
-#services .icon a {
-  display: inline-block;
-}
-
-#services .icon i {
-  color: #fff;
-  font-size: 24px;
-}
-
-#services .box:hover .icon {
-  background: #fff;
-  border: 2px solid #2dc997;
-}
-
-#services .box:hover .icon i {
-  color: #2dc997;
-}
-
-#services .box:hover .icon a {
-  color: #2dc997;
+#services .box3 {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: url(../img/palawan.jpg) top center;
+  background-size: cover;
 }
 
 #services .title {
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -664,20 +650,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .description {
   font-size: 14px;
   line-height: 24px;
+  color: #000000;
 }
 
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/surf.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
 
 #call-to-action .cta-title {
   color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 500;
+  font-family: "Akronim";
+  
 }
 
 #call-to-action .cta-text {
